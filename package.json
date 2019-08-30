@@ -1,0 +1,29 @@
+{
+  "name": "flow-learn",
+  "version": "1.0.0",
+  "description": "[FLOW官网](https://flow.org/en/docs/getting-started/)",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+	"flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjq1994/flow-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wjq1994/flow-learn/issues"
+  },
+  "homepage": "https://github.com/wjq1994/flow-learn#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-flow": "^7.0.0",
+    "flow-bin": "^0.106.3"
+  }
+}
